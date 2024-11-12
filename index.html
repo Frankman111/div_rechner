@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <h1>Diverse Rechner</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Makroverteilung</a></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <article>
+        <section>
+            <h2>Makroverteilung</h2>
+            <p>Ausgangspunkt ist die Definition von den drei Hauptkomponenten</p>
+            <ul>
+                <li>1g Eiweiß (Protein) = 4,2 kcal</li>
+                <li>1g Kohlenhydrate = 4,2 kcal</li>
+                <li>1g Fett = 9 kcal</li>
+            </ul>
+        </section>
+        <section>
+            <form>
+                <div>
+                    <label for="weight">Wie schwer, in KG, sind Sie?</label>
+                    <input type="number" name="weight" id="weight">
+                </div>
+                <div>
+                    <label for="calorieIntake">Wieviele Kalorien möchten Sie zu sich nehmen?</label>
+                    <input type="number" name="calorieIntake" id="calorieIntake">
+                </div>
+                <div>
+                    <label for="gramsProtein">Wieviel Gramm Eiweiß (Proteine) pro KG Körpergewicht?</label>
+                    <input type="number" name="gramsProtein" id="gramsProtein">
+                </div>
+                <div>
+                    <label for="gramsFat">Wieviel Gramm Fett pro KG Körpergewicht?</label>
+                    <input type="number" name="gramsFat" id="gramsFat">
+                </div>
+                <div class="results"></div>
+                <input type="submit" value="Berechnen" id="submit">
+            </form>
+        </section>
+    </article>
+
+</main>
+<script src="app.js"></script>
+</body>
+</html>
