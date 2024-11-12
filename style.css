@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFC09F;
+    width: 80%;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+
 .form-hide{
     display: none;
+}
+
+article{
+    background-color: #FFEE93;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+input{
+    border-radius: 10px;
+    width: 100px;
 }

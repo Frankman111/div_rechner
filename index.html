@@ -11,15 +11,16 @@
     <h1>Diverse Rechner</h1>
     <nav>
         <ul>
-            <li><a href="#">Makroverteilung</a></li>
+            <li><a href="#makros">Makroverteilung</a></li>
             <li></li>
             <li></li>
         </ul>
     </nav>
 </header>
 <main>
+    <!--Berechnung Makroverteilung-->
     <article>
-        <section>
+        <section id="makros">
             <h2>Makroverteilung</h2>
             <p>Ausgangspunkt ist die Definition von den drei Hauptkomponenten</p>
             <ul>
@@ -31,7 +32,7 @@
         <section>
             <form id="form">
                 <div>
-                    <label for="weight">Wie schwer, in KG, sind Sie?</label>
+                    <label for="weight">Wie schwer sind Sie, in KG?</label>
                     <input type="number" name="weight" id="weight" >
                 </div>
                 <div>
@@ -39,7 +40,7 @@
                     <input type="number" name="calorieIntake" id="calorieIntake" >
                 </div>
                 <div>
-                    <label for="gramsProtein">Wieviel Gramm Eiweiß (Proteine) pro KG Körpergewicht?</label>
+                    <label for="gramsProtein">Wieviel Gramm Eiweiß pro KG Körpergewicht?</label>
                     <input type="number" name="gramsProtein" id="gramsProtein" >
                 </div>
                 <div>
@@ -54,7 +55,24 @@
         <div class="results"></div>
         <input type="reset" value="Zurücksetzen" id="reset" class="form-hide">
     </article>
+    <article>
+        <h2>Grundumsatz berechnen</h2>
+        <p>Hier sieben Formeln zum berechnen des Grundumsatzes</p>
+        <section class="simple">
+            <h3>Vereinfachte Formel</h3>
 
+            <form>
+                <div><label for="female">Weiblich</label>
+                    <input type="radio" name="radio" id="female">
+                </div>
+                <div>
+                    <label for="male">Männlich</label>
+                    <input type="radio" name="radio" id="male">
+                </div>
+            </form>
+
+        </section>
+    </article>
 </main>
 <script src="app.js"></script>
 </body>
