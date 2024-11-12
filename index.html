@@ -29,27 +29,30 @@
             </ul>
         </section>
         <section>
-            <form>
+            <form id="form">
                 <div>
                     <label for="weight">Wie schwer, in KG, sind Sie?</label>
-                    <input type="number" name="weight" id="weight">
+                    <input type="number" name="weight" id="weight" >
                 </div>
                 <div>
                     <label for="calorieIntake">Wieviele Kalorien möchten Sie zu sich nehmen?</label>
-                    <input type="number" name="calorieIntake" id="calorieIntake">
+                    <input type="number" name="calorieIntake" id="calorieIntake" >
                 </div>
                 <div>
                     <label for="gramsProtein">Wieviel Gramm Eiweiß (Proteine) pro KG Körpergewicht?</label>
-                    <input type="number" name="gramsProtein" id="gramsProtein">
+                    <input type="number" name="gramsProtein" id="gramsProtein" >
                 </div>
                 <div>
                     <label for="gramsFat">Wieviel Gramm Fett pro KG Körpergewicht?</label>
-                    <input type="number" name="gramsFat" id="gramsFat">
+                    <input type="number" name="gramsFat" id="gramsFat" >
                 </div>
-                <div class="results"></div>
                 <input type="submit" value="Berechnen" id="submit">
+
             </form>
+
         </section>
+        <div class="results"></div>
+        <input type="reset" value="Zurücksetzen" id="reset" class="form-hide">
     </article>
 
 </main>
